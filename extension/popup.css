@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    font-size: 65.2%;
+}
+
+html {
+    border-radius: 1rem;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    width: 35rem;
+    height: 10rem;
+    color: white;
+    background: black;
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #e50914;
+}
+
+main {
+    font-size: 2.2rem;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.disable-extension,
+.disable-clicks>div:not([class]) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+}
+
+.disable-clicks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+}
+
+.disable-extension_slider,
+.disable-clicks_slider {
+    width: 3rem;
+    height: 1rem;
+    border-radius: 1rem;
+    position: relative;
+    background: #ad4c51;
+}
+
+.disable-extension_slider-circle,
+.disable-clicks_slider-circle {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: -10%;
+    vertical-align: middle;
+    background: #e50914;
+    cursor: pointer;
+}
