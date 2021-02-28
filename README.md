@@ -1,4 +1,7 @@
-![Lazy Netflix extension logo](https://github.com/AlejandroSuero/nonstop-netflix/blob/main/extension/icons/LazyNetflix-128.png)
+<p align="center">
+  <img width="128" height="128" src="https://github.com/AlejandroSuero/nonstop-netflix/blob/main/extension/icons/LazyNetflix-128.png">
+</p>
+
 
 # Nonstop Netflix extension
 
