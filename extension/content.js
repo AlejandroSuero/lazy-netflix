@@ -1,7 +1,8 @@
 const interval = setInterval(() => {
-    let skip = document.querySelector('.skip-credits span');
+    let skipIntro = document.querySelector('.skip-credits span');
+    let continueWatching = document.querySelector('.interrupter-actions')
+        .children[0];
+    if (skipIntro != null) skipIntro.click();
 
-    if (skip != null) {
-        skip.click();
-    }
+    if (continueWatching != null) continueWatching.click();
 }, 1000);
