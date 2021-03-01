@@ -1,38 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>NonStop Netflix popup</title>
+		<link rel="stylesheet" href="popup.css" />
+	</head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NonStop Netflix popup</title>
-    <link rel="stylesheet" href="popup.css" />
-</head>
+	<body>
+		<header><h1>Lazy Netflix</h1></header>
 
-<body>
-    <main>
-        <h1>NonStop Netflix</h1>
-        <div class="disable-extension">
-            <p>Disable</p>
-            <div class="disable-extension_slider">
-                <div class="disable-extension_slider-circle"></div>
-            </div>
-        </div>
-        <div class="disable-clicks">
-            <div>
-                <p>Skip Intro</p>
-                <div class="disable-clicks_slider">
-                    <div class="disable-clicks_slider-circle" id="intro"></div>
-                </div>
-            </div>
-            <div>
-                <p>Auto Continue</p>
-                <div class="disable-clicks_slider">
-                    <div class="disable-clicks_slider-circle" id="continue"></div>
-                </div>
-            </div>
-        </div>
-    </main>
-</body>
-
+		<main>
+			<div class="disable-extension">
+				<p>Disable</p>
+				<div class="disable_slider disabled-bg">
+					<div
+						class="disable_slider-circle disabled"
+						id="extension"
+					></div>
+				</div>
+			</div>
+			<div class="disable-intro">
+				<p>Skip Intro</p>
+				<div class="disable_slider disabled-bg">
+					<div
+						class="disable_slider-circle disabled"
+						id="intro"
+					></div>
+				</div>
+			</div>
+			<div class="disable-continue">
+				<p>Auto Continue</p>
+				<div class="disable_slider disabled-bg">
+					<div
+						class="disable_slider-circle disabled"
+						id="continue"
+					></div>
+				</div>
+			</div>
+		</main>
+		<script src="./popup.js"></script>
+	</body>
 </html>
