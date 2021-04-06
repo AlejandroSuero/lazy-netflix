@@ -3,5 +3,5 @@ const interval = setInterval(() => {
     let continueWatching = document.querySelector('.interrupter-actions');
 
     if (skipIntro != null) skipIntro.click();
-    // if (continueWatching != null) continueWatching.children[0].click();
+    if (continueWatching != null) continueWatching.children[0].click();
 }, 1000);
