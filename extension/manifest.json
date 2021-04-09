@@ -17,7 +17,7 @@
         "bookmarks",
         "https://www.netflix.com/watch/*"
     ],
-    "action": {
+    "browser_action": {
         "default_popup": "popup.html",
         "default_title": "Lazy Netflix"
     },
