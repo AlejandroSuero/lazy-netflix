@@ -15,27 +15,27 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.6rem;
 	font-weight: 300;
-	width: 35rem;
-	height: 15rem;
+	width: 30rem;
+	height: 12rem;
 	color: white;
 	background: black;
 }
 
 header {
-	height: 3.5rem;
+	height: 4rem;
 	border-bottom: 1px solid #3a3a3a;
 }
 
 header h1 {
 	text-align: center;
-	font-size: 2.6rem;
+	font-size: 3rem;
 	font-weight: 600;
 	color: #e50914;
 }
 
 main {
-	font-size: 2.4rem;
-	font-weight: 300;
+	font-size: 2.6rem;
+	font-weight: 400;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -52,15 +52,15 @@ main {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	width: 35%;
+	width: 55%;
 }
 
 .disable_slider {
-	width: 3rem;
+	width: 2.25rem;
 	height: 1rem;
 	border-radius: 1rem;
 	position: relative;
-	background: #ad4c51;
+	background: #8b4346;
 	transition: background 0.3s ease-out;
 }
 
@@ -78,11 +78,11 @@ main {
 }
 
 .disabled {
-	left: 60%;
+	left: 55%;
 	transition: left 0.3s ease-out;
 }
 
 .disabled-bg {
-	background: #b40f17;
+	background: #860d13;
 	transition: background 0.3s ease-out;
 }
