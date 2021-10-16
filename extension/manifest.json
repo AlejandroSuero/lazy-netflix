@@ -1,14 +1,14 @@
 {
     "name": "Lazy Netflix",
     "description": "Don´t stop watching Netflix because you are 3 episodes in",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "manifest_version": 3,
     "content_scripts": [{
         "matches": ["https://www.netflix.com/*"],
         "js": ["content.js"]
     }],
     "background": {
-        "scripts": ["background.js"]
+        "srvice_worker": ["background.js"]
     },
     "permissions": [
         "storage",
@@ -19,7 +19,7 @@
     "host_permissions": [
         "https://www.netflix.com/watch/*"
     ],
-    "browser_action": {
+    "action": {
         "default_popup": "popup.html",
         "default_title": "Lazy Netflix"
     },
