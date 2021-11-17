@@ -5,10 +5,10 @@
     "manifest_version": 3,
     "content_scripts": [{
         "matches": ["https://www.netflix.com/*"],
-        "js": ["content.js"]
+        "js": ["./content.js"]
     }],
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "./background.js"
     },
     "permissions": [
         "storage",
@@ -20,11 +20,11 @@
         "https://www.netflix.com/watch/*"
     ],
     "action": {
-        "default_popup": "popup.html",
+        "default_popup": "./popup/popup.html",
         "default_title": "Lazy Netflix"
     },
 
-    "options_page": "options.html",
+    "options_page": "./options/options.html",
     "icons": {
         "16": "./icons/LazyNetflix-16.png",
         "48": "./icons/LazyNetflix-48.png",
